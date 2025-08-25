@@ -1,0 +1,9 @@
+services:
+  sharepoint-io:
+    build: .
+    container_name: sharepoint-io
+    env_file:
+      - .env
+    ports:
+      - "8001:8001"
+    restart: unless-stopped

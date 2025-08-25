@@ -1,0 +1,8 @@
+fastapi>=0.115.14
+uvicorn[standard]>=0.30.6
+python-multipart>=0.0.9
+pydantic>=2.8.2
+pydantic-settings>=2.4.0
+requests>=2.32.3
+msal>=1.30.0
+tzdata>=2024.1
