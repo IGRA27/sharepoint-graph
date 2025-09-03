@@ -21,6 +21,9 @@ class Settings(BaseSettings):
     # Descargas temporales
     DOWNLOAD_DIR: str = "/tmp/sharepoint"
 
+    #Revisar a futuro y cambiar
+    SSL_VERIFY: bool = Field(default=True)
+
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 settings = Settings()
